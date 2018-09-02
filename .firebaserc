@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "kwler-net"
+  },
+  "targets": {
+    "kwler-net": {
+      "hosting": {
+        "kwler-net": [
+          "kwler-net-admin"
+        ]
+      }
+    }
+  }
+}
