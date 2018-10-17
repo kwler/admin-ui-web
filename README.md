@@ -14,6 +14,11 @@ A basic web client for managing back-office tasks
 ```
 npm install -g @angular/cli
 ```
+- target correct hosting
+```
+//firebase target:apply hosting <target name> <hosting site>
+firebase target:apply hosting admin kwler-net-admin
+```
 
 #### Create Components
 ```
@@ -22,6 +27,7 @@ ng generate component my-component
 
 #### Deploy
 ```
+npm run deploy
 ```
 
 #### Local Server

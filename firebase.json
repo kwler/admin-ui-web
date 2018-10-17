@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "admin",
     "public": "dist/admin-ui-web",
     "ignore": [
       "firebase.json",
@@ -11,6 +12,9 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "predeploy": [
+      "ng build --prod"
     ]
   },
   "functions": {
