@@ -38,3 +38,6 @@ npm run deploy
 ```
 npm start
 ```
+
+#### Resources
+- [Angular and CoreUI](https://github.com/coreui/coreui-free-angular-admin-template)
