@@ -1,5 +1,6 @@
 # Admin: Web
 [![Build Status](https://travis-ci.org/kwler/admin-ui-web.svg?branch=master)](https://travis-ci.org/kwler/admin-ui-web)
+
 A basic web client for managing back-office tasks
 
 
