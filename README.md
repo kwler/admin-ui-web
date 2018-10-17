@@ -14,6 +14,10 @@ A basic web client for managing back-office tasks
 ```
 npm install -g @angular/cli
 ```
+- initialize project
+```
+firebase use --add <project name>
+```
 - target correct hosting
 ```
 //firebase target:apply hosting <target name> <hosting site>
