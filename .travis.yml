@@ -11,6 +11,7 @@ before_script:
   - npm install -g @angular/cli
   - firebase use --add $FIREBASE_PROJECT
   - firebase target:apply hosting admin $FIREBASE_HOSTING_SITE
+  - npm install --prefix ./functions
 
 script:
   - ng build --prod
