@@ -1,28 +1,40 @@
-# AdminUiWeb
+# Admin: Web
 [![Build Status](https://travis-ci.org/kwler/admin-ui-web.svg?branch=master)](https://travis-ci.org/kwler/admin-ui-web)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+A basic web client for managing back-office tasks
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features
+- [ ] Authentication
+- [ ] Harvest Management
 
-## Code scaffolding
+## Developer Notes
+- Node.JS
+- Angular CLI
+```
+npm install -g @angular/cli
+```
+- initialize project
+```
+firebase use --add <project name>
+```
+- target correct hosting
+```
+//firebase target:apply hosting <target name> <hosting site>
+firebase target:apply hosting admin kwler-net-admin
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Create Components
+```
+ng generate component my-component
+```
 
-## Build
+#### Deploy
+```
+npm run deploy
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Local Server
+```
+npm start
+```

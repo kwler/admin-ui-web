@@ -39,7 +39,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# firebase
-.firebase
-.firebaserc
-firebase-debug.log
+lib
