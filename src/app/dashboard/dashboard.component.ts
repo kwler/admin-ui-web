@@ -15,23 +15,23 @@ const navItems = [
     name: 'Harvest'
   },
   {
-    name: 'Colors',
+    name: 'Web Scraping',
     url: '/theme/colors',
-    icon: 'icon-drop'
+    icon: 'icon-globe'
   },
   {
-    name: 'Typography',
+    name: 'API',
     url: '/theme/typography',
-    icon: 'icon-pencil'
+    icon: 'icon-graph'
   },
   {
     title: true,
     name: 'Data Processing'
   },
   {
-    name: 'Base',
+    name: 'Validation',
     url: '/base',
-    icon: 'icon-puzzle',
+    icon: 'icon-check',
     children: [
       {
         name: 'Cards',
@@ -91,9 +91,9 @@ const navItems = [
     ]
   },
   {
-    name: 'Buttons',
+    name: 'Load',
     url: '/buttons',
-    icon: 'icon-cursor',
+    icon: 'icon-basket-loaded',
     children: [
       {
         name: 'Buttons',
@@ -113,75 +113,9 @@ const navItems = [
     ]
   },
   {
-    name: 'Charts',
+    name: 'Metrics',
     url: '/charts',
-    icon: 'icon-pie-chart'
-  },
-  {
-    name: 'Icons',
-    url: '/icons',
-    icon: 'icon-star',
-    children: [
-      {
-        name: 'CoreUI Icons',
-        url: '/icons/coreui-icons',
-        icon: 'icon-star',
-        badge: {
-          variant: 'success',
-          text: 'NEW'
-        }
-      },
-      {
-        name: 'Flags',
-        url: '/icons/flags',
-        icon: 'icon-star'
-      },
-      {
-        name: 'Font Awesome',
-        url: '/icons/font-awesome',
-        icon: 'icon-star',
-        badge: {
-          variant: 'secondary',
-          text: '4.7'
-        }
-      },
-      {
-        name: 'Simple Line Icons',
-        url: '/icons/simple-line-icons',
-        icon: 'icon-star'
-      }
-    ]
-  },
-  {
-    name: 'Notifications',
-    url: '/notifications',
-    icon: 'icon-bell',
-    children: [
-      {
-        name: 'Alerts',
-        url: '/notifications/alerts',
-        icon: 'icon-bell'
-      },
-      {
-        name: 'Badges',
-        url: '/notifications/badges',
-        icon: 'icon-bell'
-      },
-      {
-        name: 'Modals',
-        url: '/notifications/modals',
-        icon: 'icon-bell'
-      }
-    ]
-  },
-  {
-    name: 'Widgets',
-    url: '/widgets',
-    icon: 'icon-calculator',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
+    icon: 'icon-chart'
   },
   {
     divider: true
@@ -191,9 +125,9 @@ const navItems = [
     name: 'Site Activity',
   },
   {
-    name: 'Pages',
+    name: 'Users',
     url: '/pages',
-    icon: 'icon-star',
+    icon: 'icon-user',
     children: [
       {
         name: 'Login',
