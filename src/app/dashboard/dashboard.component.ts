@@ -12,7 +12,7 @@ const navItems = [
   },
   {
     title: true,
-    name: 'Theme'
+    name: 'Harvest'
   },
   {
     name: 'Colors',
@@ -26,7 +26,7 @@ const navItems = [
   },
   {
     title: true,
-    name: 'Components'
+    name: 'Data Processing'
   },
   {
     name: 'Base',
@@ -188,7 +188,7 @@ const navItems = [
   },
   {
     title: true,
-    name: 'Extras',
+    name: 'Site Activity',
   },
   {
     name: 'Pages',
