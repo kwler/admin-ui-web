@@ -21,13 +21,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotificationsComponent } from './dashboard/notifications/notifications.component';
+import { MainComponent } from './dashboard/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
