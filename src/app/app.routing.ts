@@ -16,6 +16,9 @@ export const routes: Routes = [
     {
         path: 'dashboard',
         component: DashboardComponent,
+        data: {
+            title: 'Dashboard'
+        },
         children: [
             {
                 path: '',
@@ -24,15 +27,24 @@ export const routes: Routes = [
             },
             {
                 path: 'main',
-                component: MainComponent
+                component: MainComponent,
+                data: {
+                    title: 'Main'
+                },
             },
             {
                 path: 'harvest/webscraping',
-                component: HarvestWebscrapingComponent
+                component: HarvestWebscrapingComponent,
+                data: {
+                    title: 'Harvest'
+                },
             },
             {
                 path: 'harvest/api',
-                component: HarvestApiComponent
+                component: HarvestApiComponent,
+                data: {
+                    title: 'Harvest'
+                },
             }
         ]
     },
