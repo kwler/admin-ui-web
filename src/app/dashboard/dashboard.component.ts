@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 const navItems = [
   {
     name: 'Dashboard',
-    url: '/dashboard',
+    url: '/dashboard/main',
     icon: 'icon-speedometer'
   },
   {
@@ -12,12 +12,12 @@ const navItems = [
   },
   {
     name: 'Web Scraping',
-    url: '/theme/colors',
+    url: '/dashboard/harvest/webscraping',
     icon: 'icon-globe'
   },
   {
     name: 'API',
-    url: '/theme/typography',
+    url: '/dashboard/harvest/api',
     icon: 'icon-graph'
   },
   {

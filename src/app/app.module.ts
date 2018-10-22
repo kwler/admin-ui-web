@@ -22,6 +22,8 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotificationsComponent } from './dashboard/notifications/notifications.component';
 import { MainComponent } from './dashboard/main/main.component';
+import { HarvestWebscrapingComponent } from './dashboard/harvest-webscraping/harvest-webscraping.component';
+import { HarvestApiComponent } from './dashboard/harvest-api/harvest-api.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { MainComponent } from './dashboard/main/main.component';
     LoginComponent,
     DashboardComponent,
     NotificationsComponent,
-    MainComponent
+    MainComponent,
+    HarvestWebscrapingComponent,
+    HarvestApiComponent
   ],
   imports: [
     BrowserModule,
