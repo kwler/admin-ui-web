@@ -20,12 +20,14 @@ import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NotificationsComponent } from './dashboard/notifications/notifications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,
