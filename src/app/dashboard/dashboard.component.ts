@@ -4,11 +4,7 @@ const navItems = [
   {
     name: 'Dashboard',
     url: '/dashboard',
-    icon: 'icon-speedometer',
-    badge: {
-      variant: 'info',
-      text: 'NEW'
-    }
+    icon: 'icon-speedometer'
   },
   {
     title: true,
@@ -31,64 +27,7 @@ const navItems = [
   {
     name: 'Validation',
     url: '/base',
-    icon: 'icon-check',
-    children: [
-      {
-        name: 'Cards',
-        url: '/base/cards',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Carousels',
-        url: '/base/carousels',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Collapses',
-        url: '/base/collapses',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Forms',
-        url: '/base/forms',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Pagination',
-        url: '/base/paginations',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Switches',
-        url: '/base/switches',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips',
-        icon: 'icon-puzzle'
-      }
-    ]
+    icon: 'icon-check'
   },
   {
     name: 'Load',
@@ -96,19 +35,19 @@ const navItems = [
     icon: 'icon-basket-loaded',
     children: [
       {
-        name: 'Buttons',
+        name: 'MongoDB',
         url: '/buttons/buttons',
-        icon: 'icon-cursor'
+        icon: 'icon-cloud'
       },
       {
-        name: 'Dropdowns',
+        name: 'Postgres',
         url: '/buttons/dropdowns',
-        icon: 'icon-cursor'
+        icon: 'icon-code'
       },
       {
-        name: 'Brand Buttons',
+        name: 'Elasticsearch',
         url: '/buttons/brand-buttons',
-        icon: 'icon-cursor'
+        icon: 'icon-cog'
       }
     ]
   },
@@ -130,39 +69,23 @@ const navItems = [
     icon: 'icon-user',
     children: [
       {
-        name: 'Login',
+        name: 'Sessions',
         url: '/login',
         icon: 'icon-star'
       },
       {
-        name: 'Register',
+        name: 'Registrations',
         url: '/register',
-        icon: 'icon-star'
-      },
-      {
-        name: 'Error 404',
-        url: '/404',
-        icon: 'icon-star'
-      },
-      {
-        name: 'Error 500',
-        url: '/500',
         icon: 'icon-star'
       }
     ]
   },
   {
-    name: 'Download CoreUI',
-    url: 'http://coreui.io/angular/',
+    name: 'Download App',
+    url: 'http://kwler.net/download/',
     icon: 'icon-cloud-download',
     class: 'mt-auto',
     variant: 'success'
-  },
-  {
-    name: 'Try CoreUI PRO',
-    url: 'http://coreui.io/pro/angular/',
-    icon: 'icon-layers',
-    variant: 'danger'
   }
 ];
 

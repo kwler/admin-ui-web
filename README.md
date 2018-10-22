@@ -40,4 +40,5 @@ npm start
 ```
 
 #### Resources
+- [Angular Bootstrap](https://valor-software.com/ngx-bootstrap/#/getting-started)
 - [Angular and CoreUI](https://github.com/coreui/coreui-free-angular-admin-template)

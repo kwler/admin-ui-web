@@ -11,7 +11,10 @@ import {
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 
-import { TabsModule } from 'ngx-bootstrap/tabs';
+import {
+  BsDropdownModule,
+  TabsModule
+} from 'ngx-bootstrap';
 
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
@@ -33,7 +36,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppHeaderModule,
     AppSidebarModule,
     PerfectScrollbarModule,
-    TabsModule
+
+    TabsModule.forRoot(),
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
