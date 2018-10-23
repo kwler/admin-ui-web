@@ -3,10 +3,13 @@
 
 A basic web client for managing back-office tasks
 
-
 ## Features
 - [ ] Authentication
 - [ ] Harvest Management
+
+| Login                                    | Dashboard                                      |
+| ---------------------------------------- |:----------------------------------------------:|
+| ![Login](/docs/screenshots/login.png)    | ![Dashboard](/docs/screenshots/dashboard.png)  |
 
 ## Developer Notes
 - Node.JS
