@@ -7,8 +7,8 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display the correct footer', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to admin-ui-web!');
+    expect(page.getFooterMessage()).toEqual('Kwler.NET © 2018 The Startup Builder.');
   });
 });

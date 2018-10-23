@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { LoginComponent } from './login/login.component';
 import { MainComponent } from './dashboard/main/main.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { HarvestWebscrapingComponent } from './dashboard/harvest-webscraping/harvest-webscraping.component';
 import { HarvestApiComponent } from './dashboard/harvest-api/harvest-api.component';
 
